@@ -8,6 +8,7 @@ namespace bai7
 {
     internal class HinhTron
     {
+        public static double pi = 3.14;
         private ToaDo _tam;
         private double _banKinh;
         public double BanKinh {  get { return _banKinh; } set { _banKinh = value; } }
@@ -24,7 +25,11 @@ namespace bai7
         }
         public double tinhChuVi()
         {
-
+            return _banKinh * 2 * pi;
+        }
+        public double tinhDienTich()
+        {
+            return pi * _banKinh * _banKinh;
         }
     }
 }

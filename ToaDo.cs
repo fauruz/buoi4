@@ -24,8 +24,9 @@ namespace bai7
             X = 1.2f;
             Y = 3.4f;
         }
-        public ToaDo(float x,float y)
+        public ToaDo(string ten,float x,float y)
         {
+            Ten = ten;
             X = x;
             Y = y;
         }
